@@ -1,0 +1,605 @@
+{
+  "facebook.com": {
+    "owner": "Meta (Mark Zuckerberg)",
+    "netWorth": "$200B+",
+    "dataCollected": [
+      "Everything you post, like, share, or comment on",
+      "Who you talk to and how often",
+      "Your location history",
+      "What you look at and for how long",
+      "Your face (for facial recognition)",
+      "Data from other apps on your phone",
+      "Your browsing history across the web (via pixel tracking)"
+    ],
+    "howAlgorithmWorks": "Facebook shows you stuff that keeps you scrolling. It learns what makes you angry, sad, or excited—then feeds you more of that. Outrage = engagement = ad money. It creates filter bubbles where you only see views you already agree with.",
+    "psyOps": [
+      "Infinite scroll - no natural stopping point, keeps you hooked",
+      "Variable rewards - like a slot machine, you never know when you'll get likes",
+      "Social validation - exploits your need for approval",
+      "FOMO - fear of missing out keeps you checking back",
+      "Notification bombardment - constant pings to pull you back in"
+    ],
+    "whatToCheck": [
+      "Settings → Privacy → Download your data (prepare to be shocked)",
+      "Settings → Your Facebook Information → Off-Facebook Activity",
+      "Ad Preferences - see how they've profiled you"
+    ],
+    "alternatives": [
+      "Mastodon - decentralized, no algorithm pushing content",
+      "Signal groups - for actual private communication",
+      "Real life meetups - revolutionary concept"
+    ],
+    "severity": "critical"
+  },
+  "instagram.com": {
+    "owner": "Meta (Mark Zuckerberg)",
+    "netWorth": "$200B+",
+    "dataCollected": [
+      "All your photos and their metadata (location, time)",
+      "Your face and faces of people in your photos",
+      "DMs (not end-to-end encrypted by default)",
+      "What you look at and for how long",
+      "Shopping interests and purchase behavior",
+      "Your entire social graph"
+    ],
+    "howAlgorithmWorks": "Instagram's algorithm is designed to make you feel inadequate so you keep scrolling for validation. It prioritizes content that triggers comparison and envy. Reels are TikTok-style dopamine hits to maximize time on app.",
+    "psyOps": [
+      "Comparison trap - curated highlights make your life seem worse",
+      "Beauty filters - distort reality, damage self-image",
+      "Like counts - gamifies social validation",
+      "Explore page - rabbit hole designed to waste hours",
+      "Stories urgency - 24hr limit creates artificial FOMO"
+    ],
+    "whatToCheck": [
+      "Settings → Account → What you've liked",
+      "Settings → Security → Access Data",
+      "Download your data to see everything stored"
+    ],
+    "alternatives": [
+      "Pixelfed - Instagram-like but decentralized",
+      "Glass - photography community without likes",
+      "VSCO - more focused on creativity, less on validation"
+    ],
+    "severity": "critical"
+  },
+  "twitter.com": {
+    "owner": "X Corp (Elon Musk)",
+    "netWorth": "$200B+",
+    "dataCollected": [
+      "All tweets, likes, retweets, and bookmarks",
+      "DMs (stored indefinitely)",
+      "Your interests and political leanings",
+      "Who you follow and interact with",
+      "Your location",
+      "Device and browser information"
+    ],
+    "howAlgorithmWorks": "X/Twitter amplifies controversial and emotional content because it drives engagement. The algorithm is trained to maximize time on site. Political content and outrage get boosted because they generate reactions.",
+    "psyOps": [
+      "Outrage amplification - anger spreads faster than facts",
+      "Quote tweet pile-ons - mob mentality by design",
+      "Trending manipulation - creates artificial urgency",
+      "Blue check validation - pay for visibility",
+      "Character limit - forces oversimplification of complex topics"
+    ],
+    "whatToCheck": [
+      "Settings → Your Account → Download archive",
+      "Settings → Privacy → Personalization and data",
+      "Settings → Security → Apps and sessions"
+    ],
+    "alternatives": [
+      "Mastodon - federated, choose your own algorithm",
+      "Bluesky - decentralized Twitter alternative",
+      "RSS feeds - you control what you see"
+    ],
+    "severity": "high"
+  },
+  "x.com": {
+    "owner": "X Corp (Elon Musk)",
+    "netWorth": "$200B+",
+    "dataCollected": [
+      "All tweets, likes, retweets, and bookmarks",
+      "DMs (stored indefinitely)",
+      "Your interests and political leanings",
+      "Who you follow and interact with",
+      "Your location",
+      "Device and browser information"
+    ],
+    "howAlgorithmWorks": "X/Twitter amplifies controversial and emotional content because it drives engagement. The algorithm is trained to maximize time on site. Political content and outrage get boosted because they generate reactions.",
+    "psyOps": [
+      "Outrage amplification - anger spreads faster than facts",
+      "Quote tweet pile-ons - mob mentality by design",
+      "Trending manipulation - creates artificial urgency",
+      "Blue check validation - pay for visibility",
+      "Character limit - forces oversimplification of complex topics"
+    ],
+    "whatToCheck": [
+      "Settings → Your Account → Download archive",
+      "Settings → Privacy → Personalization and data",
+      "Settings → Security → Apps and sessions"
+    ],
+    "alternatives": [
+      "Mastodon - federated, choose your own algorithm",
+      "Bluesky - decentralized Twitter alternative",
+      "RSS feeds - you control what you see"
+    ],
+    "severity": "high"
+  },
+  "tiktok.com": {
+    "owner": "ByteDance",
+    "netWorth": "$220B+ company",
+    "dataCollected": [
+      "Facial features and voiceprints",
+      "Everything you watch and for exactly how long",
+      "Keystroke patterns",
+      "Location data",
+      "Device identifiers",
+      "Clipboard contents",
+      "Contacts (if permitted)"
+    ],
+    "howAlgorithmWorks": "TikTok has the most advanced recommendation algorithm. It learns your preferences within minutes by tracking exactly what you pause on, rewatch, or skip. It's essentially a behavior prediction engine that knows you better than you know yourself.",
+    "psyOps": [
+      "Hyper-personalization - creates an addiction loop tuned to YOUR brain",
+      "Short-form content - trains attention span to need constant stimulation",
+      "Endless scroll - no stopping cues",
+      "Sound-on autoplay - hijacks attention involuntarily",
+      "Trend pressure - fear of being 'out of the loop'"
+    ],
+    "whatToCheck": [
+      "Settings → Privacy → Download your data",
+      "Settings → Privacy → Personalization and data",
+      "Settings → Security → Manage devices"
+    ],
+    "alternatives": [
+      "PeerTube - decentralized video platform",
+      "YouTube (with uBlock) - at least you control recommendations more",
+      "Learning a musical instrument - equally stimulating, actually rewarding"
+    ],
+    "severity": "critical"
+  },
+  "youtube.com": {
+    "owner": "Google/Alphabet (Sundar Pichai/Larry Page/Sergey Brin)",
+    "netWorth": "$100B+ each",
+    "dataCollected": [
+      "Complete watch history",
+      "Search history",
+      "Comments and likes",
+      "Voice data from searches",
+      "Location data",
+      "Device information",
+      "Cross-site tracking via Google account"
+    ],
+    "howAlgorithmWorks": "YouTube's algorithm optimizes for watch time, not quality. It learns to recommend increasingly extreme content because that keeps people watching. The rabbit hole effect can lead people from cooking videos to conspiracy theories in a few clicks.",
+    "psyOps": [
+      "Autoplay - removes the decision to stop watching",
+      "Recommendations sidebar - always something 'better' to watch",
+      "Thumbnail manipulation - clickbait imagery",
+      "Watch time optimization - longer videos = more ads",
+      "Notification overload - 'Don't miss out!'"
+    ],
+    "whatToCheck": [
+      "myactivity.google.com - see your complete history",
+      "adssettings.google.com - see your ad profile",
+      "takeout.google.com - download everything Google has"
+    ],
+    "alternatives": [
+      "PeerTube - federated video hosting",
+      "Nebula - creator-owned platform",
+      "Invidious - YouTube frontend without tracking",
+      "NewPipe (Android) - no tracking YouTube client"
+    ],
+    "severity": "high"
+  },
+  "google.com": {
+    "owner": "Alphabet (Sundar Pichai/Larry Page/Sergey Brin)",
+    "netWorth": "$100B+ each",
+    "dataCollected": [
+      "Every search you've ever made",
+      "Your location history (even with location 'off')",
+      "All your emails (Gmail)",
+      "Your calendar and contacts",
+      "Voice recordings from Assistant",
+      "Files in Drive",
+      "Browsing history (Chrome)",
+      "App usage (Android)"
+    ],
+    "howAlgorithmWorks": "Google creates a comprehensive profile of you across all services. Search results are personalized to keep you in a filter bubble. They sell this profile to advertisers who then follow you everywhere online.",
+    "psyOps": [
+      "Convenience trap - services so good you can't leave",
+      "Data lock-in - your whole digital life is with them",
+      "Normalization - 'everyone uses Google'",
+      "Free illusion - you pay with your data, not money"
+    ],
+    "whatToCheck": [
+      "myactivity.google.com - prepare to be horrified",
+      "adssettings.google.com - your advertising profile",
+      "takeout.google.com - download EVERYTHING they have",
+      "myaccount.google.com/security - what's accessing your account"
+    ],
+    "alternatives": [
+      "DuckDuckGo - private search",
+      "Brave Search - independent index",
+      "ProtonMail - encrypted email",
+      "Firefox - privacy-focused browser"
+    ],
+    "severity": "critical"
+  },
+  "amazon.com": {
+    "owner": "Amazon (Jeff Bezos/Andy Jassy)",
+    "netWorth": "$200B+ (Bezos)",
+    "dataCollected": [
+      "Complete purchase history",
+      "Browsing and search history on Amazon",
+      "Alexa voice recordings",
+      "Ring camera footage",
+      "Kindle reading habits",
+      "Location data",
+      "Payment information"
+    ],
+    "howAlgorithmWorks": "Amazon's algorithm is designed to maximize purchases. It tracks what you look at, how long, what you almost bought, and uses this to hit you with 'personalized' deals. Prime creates artificial urgency and loyalty.",
+    "psyOps": [
+      "Prime lock-in - sunk cost keeps you buying",
+      "One-click buying - removes friction for impulse purchases",
+      "Artificial scarcity - 'Only 3 left!' creates urgency",
+      "Review manipulation - hard to trust what's real",
+      "Subscribe & Save - autopilot spending"
+    ],
+    "whatToCheck": [
+      "Account → Download your data",
+      "Alexa Privacy Settings - review voice recordings",
+      "Advertising Preferences - opt out of personalized ads"
+    ],
+    "alternatives": [
+      "Buy local - support your community",
+      "Direct from brands - often same price",
+      "Library - free books without tracking",
+      "Ethical marketplaces - check company practices"
+    ],
+    "severity": "high"
+  },
+  "linkedin.com": {
+    "owner": "Microsoft (Satya Nadella)",
+    "netWorth": "$100B+",
+    "dataCollected": [
+      "Your entire professional history",
+      "Who you know professionally",
+      "Job searches and applications",
+      "Messages and connection requests",
+      "Salary expectations and career goals",
+      "Skills and endorsements",
+      "Content engagement"
+    ],
+    "howAlgorithmWorks": "LinkedIn's algorithm promotes 'engagement bait' - emotional stories that perform well regardless of professional value. It creates pressure to constantly 'build your brand' and anxiety about career progress.",
+    "psyOps": [
+      "Status anxiety - constant comparison to peers",
+      "Hustle culture glorification - burnout as aspiration",
+      "Engagement pressure - must post to be visible",
+      "Connection FOMO - larger network = more success?",
+      "Premium FOMO - pay to see who viewed you"
+    ],
+    "whatToCheck": [
+      "Settings → Get a copy of your data",
+      "Settings → Advertising data",
+      "Settings → Visibility → Profile viewing options"
+    ],
+    "alternatives": [
+      "Personal website - own your professional presence",
+      "Direct networking - actual relationships matter more",
+      "Industry-specific communities - more focused, less noise"
+    ],
+    "severity": "medium"
+  },
+  "reddit.com": {
+    "owner": "Reddit Inc (Steve Huffman)",
+    "netWorth": "$10B+ company",
+    "dataCollected": [
+      "All posts, comments, and votes",
+      "Subreddits joined and visited",
+      "Time spent on content",
+      "Awards given and received",
+      "Cross-site tracking",
+      "Device and location info"
+    ],
+    "howAlgorithmWorks": "Reddit's algorithm promotes content that generates engagement (votes, comments). Controversial content often rises because it generates discussion. Echo chambers form naturally in subreddits.",
+    "psyOps": [
+      "Karma system - gamifies social validation",
+      "Infinite communities - always another rabbit hole",
+      "Upvote dopamine - slot machine for opinions",
+      "Default sorting - algorithm decides 'best'",
+      "Awards - monetized validation"
+    ],
+    "whatToCheck": [
+      "Settings → Request your data",
+      "Settings → Privacy → Personalization",
+      "Old.reddit.com - less manipulative design"
+    ],
+    "alternatives": [
+      "Lemmy - federated Reddit alternative",
+      "Tildes - invite-only, quality focused",
+      "Specific forums - topic-focused communities"
+    ],
+    "severity": "medium"
+  },
+  "snapchat.com": {
+    "owner": "Snap Inc (Evan Spiegel)",
+    "netWorth": "$3B+",
+    "dataCollected": [
+      "All snaps (not really deleted)",
+      "Location data (Snap Map)",
+      "Facial recognition data from filters",
+      "Contact lists",
+      "Bitmoji data",
+      "Communication patterns"
+    ],
+    "howAlgorithmWorks": "Snapchat creates urgency through disappearing content. Streaks exploit social obligation. The Discover feed is algorithmic content designed to maximize engagement.",
+    "psyOps": [
+      "Streaks - artificial social obligations",
+      "Disappearing content - creates urgency to check constantly",
+      "Snap Map - social pressure + surveillance",
+      "Beauty filters - body dysmorphia fuel",
+      "Snap Score - gamified usage tracking"
+    ],
+    "whatToCheck": [
+      "Settings → My Data → Download My Data",
+      "Settings → Privacy Controls",
+      "Snap Map settings - who can see you?"
+    ],
+    "alternatives": [
+      "Signal - actually private messaging",
+      "Regular texting - good enough for most things",
+      "In-person hangouts - radical concept"
+    ],
+    "severity": "high"
+  },
+  "netflix.com": {
+    "owner": "Netflix (Reed Hastings/Ted Sarandos)",
+    "netWorth": "$3B+ (Hastings)",
+    "dataCollected": [
+      "Complete viewing history",
+      "What you pause, rewind, or skip",
+      "When you watch",
+      "Device and location information",
+      "Profile information",
+      "Payment data"
+    ],
+    "howAlgorithmWorks": "Netflix's algorithm is designed to keep you watching. It personalizes thumbnails, recommendations, and even what order things appear. The goal is maximizing 'time engaged' with the platform.",
+    "psyOps": [
+      "Auto-play next episode - removes decision to stop",
+      "Personalized thumbnails - A/B tested to hook YOU",
+      "Skip intro - removes natural stopping point",
+      "Are you still watching? - just often enough",
+      "New releases - creates watching obligations"
+    ],
+    "whatToCheck": [
+      "Account → Viewing activity",
+      "Account → Profile & Parental Controls → Viewing restrictions"
+    ],
+    "alternatives": [
+      "Library - free movies and shows",
+      "Buying/renting individual titles - own what you watch",
+      "Reading - it's still a thing"
+    ],
+    "severity": "low"
+  },
+  "spotify.com": {
+    "owner": "Spotify (Daniel Ek)",
+    "netWorth": "$5B+",
+    "dataCollected": [
+      "Complete listening history",
+      "When and where you listen",
+      "Playlists created and followed",
+      "Social connections",
+      "Voice data (if using voice search)",
+      "Device information"
+    ],
+    "howAlgorithmWorks": "Spotify's algorithm creates filter bubbles in music. It learns your taste and keeps feeding you similar content, which can actually limit musical discovery despite claiming to enhance it.",
+    "psyOps": [
+      "Personalized playlists - makes you dependent on algorithm",
+      "Wrapped - gamifies your listening data",
+      "Premium pressure - constant upselling",
+      "Social features - what will people think of your taste?",
+      "Infinite playlists - background noise optimization"
+    ],
+    "whatToCheck": [
+      "Account → Privacy Settings",
+      "Account → Download your data",
+      "Privacy settings → Tailored ads"
+    ],
+    "alternatives": [
+      "Bandcamp - directly support artists",
+      "Local music files - own your collection",
+      "Radio - less personalized, more discovery",
+      "Live music - support local artists"
+    ],
+    "severity": "low"
+  },
+  "whatsapp.com": {
+    "owner": "Meta (Mark Zuckerberg)",
+    "netWorth": "$200B+",
+    "dataCollected": [
+      "Metadata - who you talk to, when, how often",
+      "Phone contacts",
+      "Profile information",
+      "Group memberships",
+      "Status updates",
+      "Usage patterns",
+      "Device information"
+    ],
+    "howAlgorithmWorks": "While messages are encrypted, Meta collects extensive metadata about your communication patterns. This metadata is incredibly revealing about your relationships, routines, and life.",
+    "psyOps": [
+      "Network effect - everyone's on it, so you must be",
+      "Read receipts - social pressure to respond",
+      "Online status - surveillance normalized",
+      "Group pressure - can't leave without drama",
+      "Status feature - Instagram stories for messaging"
+    ],
+    "whatToCheck": [
+      "Settings → Account → Request account info",
+      "Settings → Privacy - check all settings",
+      "Linked devices - who else has access?"
+    ],
+    "alternatives": [
+      "Signal - actually private, open source",
+      "Session - no phone number required",
+      "Matrix/Element - decentralized messaging"
+    ],
+    "severity": "medium"
+  },
+  "discord.com": {
+    "owner": "Discord Inc (Jason Citron)",
+    "netWorth": "$15B+ company",
+    "dataCollected": [
+      "All messages (not E2E encrypted)",
+      "Voice chat metadata",
+      "Server memberships",
+      "Friends and connections",
+      "Activity status and game info",
+      "Device information"
+    ],
+    "howAlgorithmWorks": "Discord doesn't have a traditional feed algorithm, but it creates stickiness through always-on community presence. The fear of missing out on conversations keeps people perpetually connected.",
+    "psyOps": [
+      "Always-on presence - constant social monitoring",
+      "Notification overload - every message pings",
+      "Server FOMO - can't track all conversations",
+      "Nitro upselling - pay for better expression",
+      "Activity status - work and play monitored"
+    ],
+    "whatToCheck": [
+      "Settings → Privacy & Safety → Request all of my data",
+      "Settings → Privacy & Safety → review all toggles",
+      "Authorized Apps - who has access?"
+    ],
+    "alternatives": [
+      "Matrix/Element - open source, can self-host",
+      "Revolt - Discord alternative focused on privacy",
+      "IRC - old school but private"
+    ],
+    "severity": "medium"
+  },
+  "microsoft.com": {
+    "owner": "Microsoft (Satya Nadella)",
+    "netWorth": "$100B+",
+    "dataCollected": [
+      "Windows telemetry (everything you do on PC)",
+      "Office document contents",
+      "Cortana voice data",
+      "Bing search history",
+      "Xbox gaming data",
+      "Outlook emails",
+      "OneDrive files"
+    ],
+    "howAlgorithmWorks": "Microsoft builds a comprehensive profile through Windows, Office, and cloud services. This data informs advertising and product decisions. Windows 11 has increased telemetry and AI integration.",
+    "psyOps": [
+      "Platform lock-in - Office format dominance",
+      "Default settings - maximum data collection",
+      "Update pressure - can't avoid changes",
+      "Cloud push - your files on their servers",
+      "AI integration - Copilot everywhere"
+    ],
+    "whatToCheck": [
+      "account.microsoft.com/privacy - privacy dashboard",
+      "Windows Settings → Privacy - dozens of settings",
+      "Microsoft Privacy Statement - it's very long for a reason"
+    ],
+    "alternatives": [
+      "Linux - free, open source, private",
+      "LibreOffice - Office without surveillance",
+      "Nextcloud - self-hosted cloud",
+      "Firefox - privacy-respecting browser"
+    ],
+    "severity": "high"
+  },
+  "apple.com": {
+    "owner": "Apple (Tim Cook)",
+    "netWorth": "$2B+ (Cook)",
+    "dataCollected": [
+      "Siri voice recordings",
+      "iCloud data",
+      "App Store purchases",
+      "Location history",
+      "Health data (Apple Watch)",
+      "Messages (in iCloud backup)",
+      "Device usage analytics"
+    ],
+    "howAlgorithmWorks": "Apple positions itself as privacy-focused but still collects significant data. Siri data is processed, iCloud isn't end-to-end encrypted by default, and App Tracking Transparency still allows first-party tracking.",
+    "psyOps": [
+      "Ecosystem lock-in - very hard to leave",
+      "Status symbol marketing - identity through product",
+      "Planned obsolescence - forced upgrades",
+      "Privacy marketing - creates false sense of security",
+      "Premium pricing - you still pay AND they get data"
+    ],
+    "whatToCheck": [
+      "privacy.apple.com - download your data",
+      "Settings → Privacy & Security - review all",
+      "iCloud settings - what's being synced?"
+    ],
+    "alternatives": [
+      "Android with GrapheneOS - truly private phone",
+      "Linux laptop - escape the ecosystem",
+      "Self-hosted solutions - own your data"
+    ],
+    "severity": "medium"
+  },
+  "twitch.tv": {
+    "owner": "Amazon (Jeff Bezos/Andy Jassy)",
+    "netWorth": "$200B+ (Bezos)",
+    "dataCollected": [
+      "Viewing history",
+      "Chat messages",
+      "Subscriptions and payments",
+      "Time spent watching",
+      "Interactions with streamers",
+      "Device information"
+    ],
+    "howAlgorithmWorks": "Twitch's recommendation system keeps you watching. It suggests streams based on your history and what keeps people engaged. The parasocial relationship design keeps viewers coming back.",
+    "psyOps": [
+      "Parasocial relationships - false sense of friendship",
+      "Subscription pressure - 'support your streamer'",
+      "Bits/donations - gamified spending",
+      "Chat engagement - belonging to community",
+      "FOMO on live content - can't pause life"
+    ],
+    "whatToCheck": [
+      "Settings → Privacy → Request your data",
+      "Connections - what's linked to your account",
+      "Subscription history - how much have you spent?"
+    ],
+    "alternatives": [
+      "PeerTube - federated livestreaming",
+      "Owncast - self-hosted streaming",
+      "Touch grass - revolutionary alternative"
+    ],
+    "severity": "medium"
+  },
+  "pinterest.com": {
+    "owner": "Pinterest (Bill Ready)",
+    "netWorth": "$20B+ company",
+    "dataCollected": [
+      "All pins and boards",
+      "Search history",
+      "Browsing patterns",
+      "Purchasing intent data",
+      "Off-site tracking via Pin button",
+      "Device information"
+    ],
+    "howAlgorithmWorks": "Pinterest is designed to show you things you might buy. The algorithm learns your aesthetic preferences and shopping interests, then surfaces products disguised as inspiration.",
+    "psyOps": [
+      "Aspiration exploitation - creates desire for lifestyle",
+      "Shopping disguised as inspiration",
+      "Infinite scroll of wanting",
+      "Comparison culture - curated perfection",
+      "Wedding/baby planning pressure"
+    ],
+    "whatToCheck": [
+      "Settings → Privacy and data",
+      "Settings → Request your data",
+      "Social permissions - what's connected?"
+    ],
+    "alternatives": [
+      "Physical mood boards",
+      "Bookmarks folder - own your inspiration",
+      "Are.na - mindful collecting"
+    ],
+    "severity": "low"
+  }
+}
